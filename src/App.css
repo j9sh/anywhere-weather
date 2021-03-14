@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.warm {
+    height : 100vh;
+    width : 100%;
+    background-image : url('assets/warm.jpg');
+    background-size: cover;
+    color: black;
+}
+
+.cold {
+    height : 100vh;
+    width : 100%;
+    background-image: url('assets/cold.jpg');
+    background-size: cover;
+    color: black;
+}
+
+.weather-data {
+    margin : 0 auto;
+    text-align: center;
+    width : 400px;
+    border : 1px solid rgb(74, 255, 195);
+    border-radius: 5px;
+    background-color: rgb(209, 240, 232);
+    box-shadow: 4px 4px rgb(80, 175, 123);
+    opacity : 0.85;
+}
+
+.weather-data label {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#heading-para {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    margin : 0px auto 30px auto;
+    width : 500px;
+}
+
+.searchbar {
+    text-align: center;
+    color: white;
+}
+
+.error-msg {
+    margin : 0 auto;
+    color: red;
+    width : 400px;
+    padding : 10px;
+    font-weight : bold;
+    text-align : center;
+    border : 1px solid red;
+    border-radius: 5px;
+}
